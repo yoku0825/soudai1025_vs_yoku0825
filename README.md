@@ -38,4 +38,8 @@ SELECT target_table.id
 - **NLJ以外のJOIN** ってよく聞きますけど、具体的にどんなのがあってNLJと比べてどんなメリットとデメリット(NLJより上手くいくケース、NLJの方が良いケース)があるのです？
 - MySQLでは [PMP](https://www.percona.com/software/mysql-tools/percona-monitoring-plugins) が流行ってそうだし、他にもいくつかリソースの可視化ツールありますけど、PostgreSQLで有名なものってありますか？
 - そーだいさんがよくdisってる pgAdmin(でしたっけ？) のデモをしてください :)
+- PostgreSQLのバグってどこに報告するの？
+- InnoDBのダブルライト的なものってあるの？
+- XAトランザクションって対応してるの？
+- ginインデックスってどういう仕組み？
 
