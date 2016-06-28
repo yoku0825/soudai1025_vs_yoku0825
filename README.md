@@ -36,10 +36,11 @@ SELECT target_table.id
 # PostgreSQLで知りたいこと
 
 - **NLJ以外のJOIN** ってよく聞きますけど、具体的にどんなのがあってNLJと比べてどんなメリットとデメリット(NLJより上手くいくケース、NLJの方が良いケース)があるのです？
+- Btree以外のインデックスってどんなものがあるですか？ それぞれBtreeと比べたメリットとデメリットが知りたいです。
+  - ginインデックスってどういう仕組み？
 - MySQLでは [PMP](https://www.percona.com/software/mysql-tools/percona-monitoring-plugins) が流行ってそうだし、他にもいくつかリソースの可視化ツールありますけど、PostgreSQLで有名なものってありますか？
 - そーだいさんがよくdisってる pgAdmin(でしたっけ？) のデモをしてください :)
 - PostgreSQLのバグってどこに報告するの？
 - InnoDBのダブルライト的なものってあるの？
 - XAトランザクションって対応してるの？
-- ginインデックスってどういう仕組み？
 - 関数インデックスが昔からありますが、みんなサクサクとカジュアルに貼りまくるもの？
