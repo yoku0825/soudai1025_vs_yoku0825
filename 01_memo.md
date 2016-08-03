@@ -1,3 +1,7 @@
+- 第1回は [MySQLとPostgresSQLがキャッキャウフフする](https://github.com/hachiojipm/yapcasia-8oji-2016mid-timetable/issues/85) in [YAP(achimon)C::Asia Hachioji 2016mid in Shinagawa](http://yapcasia8oji-2016mid.hachiojipm.org/)
+
+----
+
 # MySQLで知りたいこと
 - MySQLとMySQLクローン（MariaとかPerconaとか）の住み分けについて
   - MariaDB 10で入ったと噂のWindow関数については質問します
