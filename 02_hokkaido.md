@@ -53,3 +53,8 @@
 - [@sawada_masahito](https://twitter.com/sawada_masahiko) さんがたまにHAモジュールっぽいものを書いていますが、アレって実用されてたりするんでしょうか。
 - RDS for PostgreSQLってどうなの？
   - 同Heroku
+- 実際、バージョンアップって大変？
+  - どんな手順でやるの？
+  - レプリケーション環境の時はどんな手順？
+- UberのアレってPostgreSQLおじさんとしてはどんな感想？
+  - "MySQLはsushiとbeerが一緒だから…" くらいの感覚で合ってる？ :D
