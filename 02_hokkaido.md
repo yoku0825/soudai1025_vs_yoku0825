@@ -50,3 +50,6 @@
   - MySQLで一番増えたのは 5.0.96
 - PostgreSQLのドライバーやクライアントライブラリーで有名どころをいくつか教えてください。
 - シェアードバッファってInnoDBバッファプールとは全然違う？
+- [@sawada_masahito](https://twitter.com/sawada_masahiko) さんがたまにHAモジュールっぽいものを書いていますが、アレって実用されてたりするんでしょうか。
+- RDS for PostgreSQLってどうなの？
+  - 同Heroku
