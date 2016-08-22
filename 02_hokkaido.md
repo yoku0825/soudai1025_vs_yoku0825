@@ -20,6 +20,18 @@
 - RRがなぜデフォルトなのか
   - ネクストキーロックがくそ
 
+- information_schemaとかの使い方を勉強したい
+  - information_schemaを上手く見るView集とかそういうやつ
+    - PostgreSQLだとpg_stat_statementsとかpg_statsinfoってExtensionで結構良きに計らってくれる
+    - pg_stats_reporterで更にグラフィカルに表示してくれる
+  - 運用上で問題になるような現象の監視（ロックとか）を監視するの確立された方法は？
+  
+- ETERNAL FORCE INDEX→効果：ORMが死ぬ
+  - FORCE INDEXに限らず、ORMでは解決出来ない問題との付き合い方
+
+- MySQL 8で再帰クエリ書けるようになるってホント？
+- MySQL 8に潜む罠
+- 英語辛い
 
 # PostgreSQLで知りたいこと
 
