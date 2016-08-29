@@ -61,3 +61,4 @@
 - DROP TABLEをロールバックって、その間に他のトランザクションが更新したやつはどうなるの？
   - もしかして: MySQLではそれをRENAME TABLEと呼びます？
   - カラム追加も気になる
+- キミは衝撃の `SELECT *, GROUP_CONCAT(..) FROM .. WHERE .. GROUP BY ..` を見たことがあるか！
