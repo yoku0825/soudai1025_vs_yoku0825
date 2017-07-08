@@ -1,25 +1,23 @@
-- 第4回は????
+- 第4回は吉祥寺.pm
+- https://kichijojipm.connpass.com/event/59733/
 
 ----
 
 # MySQLで知りたいこと
 - Xプロトコルってまだ息してるの？
 - ロックみたいなパフォーマンスを監視するツール作りたいけど何見ればいいの？
-- MySQLのサンプリングが偏るって狙ったINDEXを使ってくれない場合にオプティマイザを騙すためにサンプリングを固定するまたは別の統計情報と差し替えるって出来るの？
 - MySQLでbTree以外のINDEX欲しくないですか？
 - MySQLのフォークで列指向INDEXサポートとか無いんですか？
 - INDEXが壊れたことを検知する仕組みはありますか？
-- MySQLでマスターとスレーブでデータで誤差出た場合を検知する方法ってあるんですか？
+- 論理レプリケーションでのデータが
   - PostgreSQLはそんな事いならないかだ無い
 - データファイルが壊れてる場合ってMySQLは検知するんですか？
   - 例えばブロックが一部壊れてるなど
 
 # PostgreSQLで知りたいこと
-
 - DR:BDってお好きですか
   - ストリーミングレプリケーションよりまだ主流？
   - MySQLはいい加減廃れたんだろうか（RDS for MySQLを除く）
 - MySQLといえばFacebook, Twitter, Google, Booking.comとかパワーユーザーとして(俺の中で)有名ですけど、PostgreSQLのパワーユーザーってみかか以外にどこかあります？
-- [@sawada_masahito](https://twitter.com/sawada_masahiko) さんがたまにHAモジュールっぽいものを書いていますが、アレって実用されてたりするんでしょうか。
 - RDS for PostgreSQLってどうなの？
   - 同Heroku
