@@ -4,20 +4,48 @@
 ----
 
 # MySQLで知りたいこと
+
 - Xプロトコルってまだ息してるの？
+  - バグフィックスや機能追加はまだまだ動いているようです。
+  - 俺の観測範囲には、とみたさん以外で楽しんでそうな人はいません。。
+
 - ロックみたいなパフォーマンスを監視するツール作りたいけど何見ればいいの？
+  - ロックに限定するならinformation_schemaです。
+  - NewRelicみたいにステージごとのアレをperformance_schemaで取るぷらぎん作ってください。
+
 - MySQLでbTree以外のINDEX欲しくないですか？
+  - FractalTree(TokuDB SE)とか転置索引(Mroonga, InnoDB FTS)とかあります
+  - GINはほしいです
+
 - MySQLのフォークで列指向INDEXサポートとか無いんですか？
+  - 列指向 **INDEX** ではないですが、InfiniDBとかInfobright(のBRIGHTHOUSE)は列指向ストレージエンジンです。
+  - MariaDB Column StoreもInfiniDBストレージエンジンを改良したColumnStoreストレージエンジン使ってる。
+
 - INDEXが壊れたことを検知する仕組みはありますか？
+  - `CHECK TABLE` 以外でということですよね？ （たぶん）
+  - 壊れたページに触った時にエラーになる、または落ちる、です
+
 - 論理レプリケーションでのデータが
   - PostgreSQLはそんな事いならないかだ無い
+  - むむむ？
+
 - データファイルが壊れてる場合ってMySQLは検知するんですか？
   - 例えばブロックが一部壊れてるなど
+  - ダブルライト領域にあるやつなら起動時に検知しますが、それ以外は触ってみる(含む `CHECK TABLE` )までわかりません
+
 
 # PostgreSQLで知りたいこと
 - DR:BDってお好きですか
   - ストリーミングレプリケーションよりまだ主流？
   - MySQLはいい加減廃れたんだろうか（RDS for MySQLを除く）
+
 - MySQLといえばFacebook, Twitter, Google, Booking.comとかパワーユーザーとして(俺の中で)有名ですけど、PostgreSQLのパワーユーザーってみかか以外にどこかあります？
+
 - RDS for PostgreSQLってどうなの？
   - 同Heroku
+
+- MySQLのメトリクス監視といえばSQL問い合わせなんですが、PostgreSQLってそのへんやりたいと思ったらプラグイン？
+  - PostgreSQLのINFORMATION_SCHEMAってあんまりそれ用に作られている感はない
+
+- MackerelでPostgreSQL用のぷらぎんとかありますか？
+  - MySQL用のに比べて、どんな項目を監視してるのかとかメトリクスにしてるのかとか知りたい
