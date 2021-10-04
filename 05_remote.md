@@ -1,5 +1,4 @@
-- 第4回は吉祥寺.pm
-- https://kichijojipm.connpass.com/event/59733/
+- 第5回はリモート雑談
 
 ----
 
