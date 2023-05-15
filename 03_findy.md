@@ -8,6 +8,12 @@
 - マルチテナントで困ったりしない？
 3. MySQLへのコントリビューションのやり方
 - MySQLもOSSですが、どんなコントリビューションができますか？
+4. 現代のMySQLでPrimary Keyのオススメは？
+- BIGINTでauto_increment？
+- UUIDやULID？
+  - シーケンシャルがいい？ならUUID v7？v1+BIN_TO_UUID()？ULID？
+  - 型はBINARY？
+- ナチュラルキーはセカンダリインデックス・外部キーのサイズ的に使い所難しい？
 
 # PostgreSQLに質問
 1. BRINってぶっちゃけどうです？
